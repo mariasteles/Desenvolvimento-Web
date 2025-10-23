@@ -1,0 +1,38 @@
+/* ================================
+   1. Seletores de grupo
+   h1 e h2 terão a mesma cor
+================================ */
+h1, h2 {
+    color: blueviolet;
+  }
+  /* ================================
+     2. Seletor filho (>)
+     Afeta apenas o primeiro <p> dentro de .box
+     => "Faça essas coisas hoje!" em firebrick
+  ================================ */
+  .box > p {
+    color: firebrick;
+  }
+  /* ================================
+     3. Descendant selector
+     Todos os <li> dentro de .list ficarão azuis
+  ================================ */
+  .list li {
+    color: blue;
+  }
+  /* ================================
+     4. Chaining selector
+     <li> com a classe .done ficam seagreen
+     => Segundo e terceiro itens da lista
+  ================================ */
+  li.done {
+    color: seagreen;
+  }
+  /* ================================
+     5. Estilo para "Outras Opções"
+     <p> com classe .done dentro de <ul>
+     => Fonte menor (0.5rem)
+  ================================ */
+  ul > p.done {
+    font-size: 0.5rem;
+  }
