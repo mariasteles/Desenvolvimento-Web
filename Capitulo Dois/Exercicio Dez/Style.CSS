@@ -1,0 +1,50 @@
+ body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  p {
+    color: yellow;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .white-text {
+    color: white;
+  }
+
+  #outer-box {
+    background-color: blue;
+    border: 10px solid purple;
+    margin: 10px auto;
+    padding: 10px;
+    width: 95%;
+    max-width: 1000px;
+  }
+  
+  .box {
+    background-color: blue;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+  } 
+
+  .inner-box {
+    background-color: red;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  #outer-box > .box {
+    width: 95%;
+    margin: 10px auto;
+  }
+  
+  .inner-box p {
+    text-align: left;
+  }
