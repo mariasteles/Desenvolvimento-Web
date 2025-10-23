@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap');
+
+html {
+  font-size: 30px;
+}
+
+p:contains('Color') {
+  color: coral;
+}
+
+p:contains('Font Size') {
+  font-size: 2rem;
+}
+
+p:contains('Font Weight') {
+  font-weight: 900;
+}
+
+p:contains('Font Family') {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+
+p:contains('Text Align') {
+  text-align: right;
+}
