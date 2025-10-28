@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Display Property Example</title>
+  <style>
+    p {
+      color: white;
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+    }
+
+    /* Objetivo 1: horizontal */
+    .horizontal .red,
+    .horizontal .green,
+    .horizontal .blue {
+      display: inline-block;
+    }
+
+    /* Objetivo 2: vertical */
+    .vertical .red,
+    .vertical .green,
+    .vertical .blue {
+      display: block;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body class="horizontal">
+  <h1>CSS Display Property</h1>
+  <p class="red">Red Paragraph</p>
+  <p class="green">Green Paragraph</p>
+  <p class="blue">Blue Paragraph</p>
+
+  <!-- 
+    Para ver vertical, troque a classe do body:
+    <body class="vertical">
+  -->
+</body>
+</html>
